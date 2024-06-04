@@ -26,11 +26,12 @@ const audioPlayer: AudioPlayer = {
 
 const song = 'New Song';
 
-const { song:anotherSong } = audioPlayer;
+const { song:anotherSong, songDuration:duration, details } = audioPlayer;
+const { author } = details ;
 
 console.log('Song: ', anotherSong);
-console.log('Duration: ', audioPlayer.songDuration);
-console.log('Author: ', audioPlayer.details.author);
+console.log('Duration: ', duration);
+console.log('Author: ', author);
 
 
 export {};
