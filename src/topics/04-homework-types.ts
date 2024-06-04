@@ -2,6 +2,16 @@
     ===== Código de TypeScript =====
 */
 
+interface SuperHero {
+    name: string,
+    age: number,
+    address: {
+        calle: string,
+        pais: string,
+        ciudad: string
+    },
+    showAddress: () => string
+}
 
 const superHeroe: SuperHero = {
     name: 'Spiderman',
