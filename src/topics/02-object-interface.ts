@@ -6,7 +6,7 @@ interface Character {
     name: string,
     hp: number,
     skills: string[],
-    hometown: string
+    hometown?: string
 }
 
 
