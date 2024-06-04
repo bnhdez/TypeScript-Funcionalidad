@@ -37,4 +37,6 @@ const aragon:Character = {
     },
 }
 
+aragon.showHp();
+
 export {};
