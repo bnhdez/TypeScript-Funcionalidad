@@ -5,12 +5,14 @@
 interface SuperHero {
     name: string,
     age: number,
-    address: {
-        calle: string,
-        pais: string,
-        ciudad: string
-    },
+    address: Address,
     showAddress: () => string
+}
+
+interface Address {
+    calle: string,
+    pais: string,
+    ciudad: string
 }
 
 const superHeroe: SuperHero = {
