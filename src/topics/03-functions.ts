@@ -1,7 +1,7 @@
 
 
-function addNumbers(a:any, b:any){
-
+function addNumbers(a:number, b:number){
+    return a + b;
 }
 
 addNumbers(1, 2)
