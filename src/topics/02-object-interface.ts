@@ -1,5 +1,5 @@
 
-let skills = ['Bash', 'Counter', 'Healing', true, 123];
+const skills: string[] = ['Bash', 'Counter', 'Healing'];
 
 
 
