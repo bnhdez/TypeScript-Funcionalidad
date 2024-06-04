@@ -24,9 +24,11 @@ const audioPlayer: AudioPlayer = {
     }
 }
 
-console.log(audioPlayer.song);
-console.log(audioPlayer.songDuration);
-console.log(audioPlayer.details.author);
+const { song } = audioPlayer;
+
+console.log('Song: ', song);
+console.log('Duration: ', audioPlayer.songDuration);
+console.log('Author: ', audioPlayer.details.author);
 
 
 export {};
