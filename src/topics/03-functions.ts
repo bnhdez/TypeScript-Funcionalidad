@@ -25,8 +25,16 @@ interface Character {
 
 const healCharacter = ( character:Character, amount:number ) => {
 
-    character.pv += amount;
+    character.hp += amount;
 
+}
+
+const aragon:Character = {
+    name: 'Aragon',
+    hp: 50,
+    showHp() {
+        console.log(`Puntos de vida ${ this.hp }`);
+    },
 }
 
 export {};
