@@ -37,6 +37,8 @@ const aragon:Character = {
     },
 }
 
+healCharacter( aragon, 10 );
+
 aragon.showHp();
 
 export {};
