@@ -23,7 +23,7 @@ interface Character {
     showHp: () => void
 }
 
-const healCharacter = ( character, amount:number ) => {
+const healCharacter = ( character:Character, amount:number ) => {
 
     character.pv += amount;
 
