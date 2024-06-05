@@ -34,7 +34,7 @@ const { author } = details ;
 //console.log('Author: ', author);
 
 
-const [ p1, p2, trunks ]: string[] = ['Goku', 'Vegeta', 'Trunks'];
+const [ , , trunks ]: string[] = ['Goku', 'Vegeta', 'Trunks'];
 
 console.error('Personaje 3: ', trunks);
 
