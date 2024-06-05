@@ -29,9 +29,14 @@ const song = 'New Song';
 const { song:anotherSong, songDuration:duration, details } = audioPlayer;
 const { author } = details ;
 
-console.log('Song: ', anotherSong);
-console.log('Duration: ', duration);
-console.log('Author: ', author);
+//console.log('Song: ', anotherSong);
+//console.log('Duration: ', duration);
+//console.log('Author: ', author);
+
+
+const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
+
+console.error('Personaje 3: ', dbz[2]);
 
 
 export {};
