@@ -5,8 +5,8 @@ export class Person {
     private address: string;
 
     constructor( name: string, address: string ) {
-        this.name = 'Boris';
-        this.address = 'Santa Tecla';
+        this.name = name;
+        this.address = address;
     }
 }
 
