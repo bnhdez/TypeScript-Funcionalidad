@@ -1,10 +1,14 @@
 
 
-export function whatsMyType(argument: any) {
+export function whatsMyType<T>(argument: T): T {
 
     return argument;
 }
 
 const amIString = whatsMyType('Hola Mundo');
+const amINumber = whatsMyType(100);
+const amIArray = whatsMyType([0, 1, 2, 3, 4]);
 
 console.log( amIString.split( ' ' ) );
+console.log( amINumber.split(' '));
+console.log( amIArray.split(' '));
