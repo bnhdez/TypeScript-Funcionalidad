@@ -36,7 +36,9 @@ const { author } = details ;
 
 const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
 
-console.error('Personaje 3: ', dbz[3] || 'No hay personaje');
+const trunks = dbz[3] || 'No hay personaje'
+
+console.error('Personaje 3: ', trunks);
 
 
 export {};
