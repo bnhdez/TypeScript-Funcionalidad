@@ -1,4 +1,4 @@
-import { Product } from './06-function-destructuring';
+import { Product, taxCalculation } from './06-function-destructuring';
 
 const shoppingCart: Product[] = [
     {
@@ -12,7 +12,10 @@ const shoppingCart: Product[] = [
 ];
 
 //tax = 0.15
-const {total, tax} = taxCalculation({});
+const [total, tax] = taxCalculation({
+    products: shoppingCart,
+    tax: 0.15
+});
 
 console.log('Total: ', total);
 console.log('Tax: ', tax);
