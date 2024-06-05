@@ -4,7 +4,17 @@ const shoppingCart: Product[] = [
     {
         description: 'Nokia',
         price: 100
+    },
+    {
+        description: 'iPad',
+        price: 150
     }
 ];
+
+//tax = 0.15
+const {total, tax} = taxCalculation({});
+
+console.log('Total: ', total);
+console.log('Tax: ', tax);
 
 
