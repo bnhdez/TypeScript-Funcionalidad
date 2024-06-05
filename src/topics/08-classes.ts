@@ -4,12 +4,12 @@ export class Person {
     public name: string;
     private address: string;
 
-    constructor() {
+    constructor( name: string, address: string ) {
         this.name = 'Boris';
         this.address = 'Santa Tecla';
     }
 }
 
-const ironman = new Person();
+const ironman = new Person('Iron-Man', 'New York');
 
-console.log(ironman.address);
+console.log(ironman);
