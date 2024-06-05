@@ -36,7 +36,7 @@ const { author } = details ;
 
 const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
 
-console.error('Personaje 3: ', dbz[2]);
+console.error('Personaje 3: ', dbz[3] || 'No hay personaje');
 
 
 export {};
