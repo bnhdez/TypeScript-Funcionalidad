@@ -16,7 +16,7 @@ const passenger2: Passanger = {
 
 const printChildren = ( passenger: Passanger ) => {
 
-    const howManyChildren = passenger.children?.length;
+    const howManyChildren = passenger.children?.length || 0;
 
     console.log(passenger.name, howManyChildren);
 }
