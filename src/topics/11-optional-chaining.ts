@@ -21,4 +21,4 @@ const printChildren = ( passenger: Passanger ) => {
     console.log(passenger.name, howManyChildren);
 }
 
-printChildren( passenger2 );
+printChildren( passenger1 );
